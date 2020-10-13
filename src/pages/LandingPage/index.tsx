@@ -12,7 +12,7 @@ const LandingPage: React.FunctionComponent = () => {
         <img src={logoImg} alt="Happy" />
         <main>
           <h1>Bring happiness to the world</h1>
-          <p>Visit orphanages and change the day of many children.</p>
+          <p>Get involved with local facilities and change the day of many of our seniors.</p>
         </main>
         <div className="location">
           <strong>Redding</strong>
