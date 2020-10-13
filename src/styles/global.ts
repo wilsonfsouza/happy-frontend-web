@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import { tint } from 'polished';
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -7,9 +9,10 @@ export default createGlobalStyle`
   }
 
   :root {
-    --color-primary: #15C3D6;
+    --color-primary: #77BB76;
+    --color-primary-hover: ${tint(0.2, "#77BB76")};
     --color-secondary: #FFD666;
-    --color-secondary-hover: #96FEFF;
+    --color-secondary-hover: ${tint(0.2, "#FFD666")};
     --color-success: #37C77F;
     --color-delete: #FF669D;
     --color-white: #FFFFFF;
@@ -25,7 +28,7 @@ export default createGlobalStyle`
     --color-back-lines-in-white: #D3E2E5;
     --color-back-background: #EBF2F5;
     --color-input-background: #F5F8FA;
-    --liner-gradient-blue: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    --liner-gradient-blue: linear-gradient(329.54deg, #77BB76 0%, #0AA286 100%);
   }
   body {
     background: var(--color-back-background);
@@ -38,7 +41,7 @@ export default createGlobalStyle`
     font-weight: 600;
   }
 
-  strong {
+  h1, h2, strong {
     font-weight: 800;
   }
 

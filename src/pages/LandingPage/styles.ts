@@ -34,8 +34,7 @@ export const ContentWrapper = styled.div`
     max-width: 350px;
 
     h1 {
-      font-size: 4.22rem;
-      font-weight: 800;
+      font-size: 3.7rem;
     }
     p {
       margin-top: 2.22rem;
@@ -75,8 +74,8 @@ export const ContentWrapper = styled.div`
     transition: all 0.2s;
 
     &:hover {
-      color: var(--color-primary);
-      background: var(--color-secondary-hover);
+      color: var(--color-white);
+      background: var(--color-primary-hover);
     }
   }
 `;
