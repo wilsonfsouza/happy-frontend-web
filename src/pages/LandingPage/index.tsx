@@ -3,6 +3,7 @@ import { FiArrowRight } from 'react-icons/fi';
 import { Container, ContentWrapper } from './styles';
 
 import logoImg from '../../assets/images/Logo.svg';
+import { Link } from 'react-router-dom';
 
 const LandingPage: React.FunctionComponent = () => {
   return (
@@ -17,7 +18,7 @@ const LandingPage: React.FunctionComponent = () => {
           <strong>Redding</strong>
           <span>CA</span>
         </div>
-        <a href='#'><FiArrowRight size={32} /></a>
+        <Link to='/app'><FiArrowRight size={32} /></Link>
       </ContentWrapper>
     </Container>
   );
