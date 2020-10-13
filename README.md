@@ -22,7 +22,7 @@
 
 <p align="center">
  <a href="#-about-the-project">About</a> •
- <a href="#-funcionalidades">Functionalities</a> •
+ <a href="#-functionalities">Functionalities</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-how-to-run-the-project">How to run</a> •
  <a href="#-technologies">Technologies</a> •
@@ -105,7 +105,7 @@ $ yarn install
 # Start the app in development mode
 $ yarn start
 
-# The application will be open at port:3000 - acess http://localhost:3000
+# The application will open at port:3000 - acess http://localhost:3000
 
 ```
 
@@ -150,7 +150,7 @@ The following tools were used in this project:
 
 ---
 
-## 💪 How to sssssss to this project
+## 💪 How to contribute to this project
 
 1. **Fork** the project.
 2. Start a new branch with your changes: `git checkout -b my-new-feature`
