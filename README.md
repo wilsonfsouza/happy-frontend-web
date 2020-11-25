@@ -35,7 +35,7 @@
 
 Happy - is a platform to connect people who would like to visit, volunteer, or get involved with senior homes in Redding, CA. The app provides the information regarding visit hours, volunteer opportunities, and ways to help each local facility.
 
-This project is a modification of the original project that is being developed in the third edition of the **NLW - Next Level Week** offered by [Rocketseat](https://nextlevelweek.com/inscricao/3).
+This project was inspired by the project developed in the third edition of the **NLW - Next Level Week** offered by [Rocketseat](https://nextlevelweek.com/inscricao/3).
 
 The NLW 3 original proposal is an application in which orphanages can register their information, and people can schedule visits to play with the children.
 
